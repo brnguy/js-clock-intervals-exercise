@@ -2,13 +2,26 @@
 }
 
 #clock img {
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    left: 30vw;
+    top: 10vh;
 }
 
 #hour {
+    transform: rotate();
 }
 
 #minute {
+    transform: rotate();
 }
 
 #second {
+    transform: rotate();
+}
+
+.todaysDate {
+    text-align: center;
+    font-size: 30px;
 }
